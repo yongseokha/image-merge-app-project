@@ -27,21 +27,22 @@ Image Editing And Merging App은 여러 장의 이미지를 사용자가 원하�
 
 ### 2.1 전체 구조
 
-```
-src/
-├── main.py              # 메인 애플리케이션
-├── ui_components.py     # UI 컴포넌트
-├── image_processor.py   # 이미지 처리 로직
-├── config_manager.py    # 설정 관리
-├── error_handler.py     # 에러 처리
-└── constants.py         # 상수 정의
+project_root/
+├── src/
+│ ├── main.py # 메인 애플리케이션
+│ ├── ui_components.py # UI 컴포넌트
+│ ├── image_processor.py # 이미지 처리 로직
+│ ├── config_manager.py # 설정 관리
+│ ├── error_handler.py # 에러 처리
+│ └── constants.py # 상수 정의
+│
+├── config/
+│ └── config.json # 설정 파일
+│
+└── logs/
+└── app.log # 로그 파일
 
-config/
-└── config.json          # 설정 파일
-
-logs/
-└── app.log             # 로그 파일
-```
+````
 
 ### 2.2 모듈별 역할
 
@@ -596,7 +597,7 @@ logs/
   @ErrorHandler.handle_error
   def function_name(self):
       # 함수 내용
-  ```
+````
 
 - 처리되는 예외 종류:
   - FileNotFoundError: "파일을 찾을 수 없습니다"
