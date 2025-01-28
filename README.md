@@ -26,7 +26,7 @@ Image Editing And Merging App은 여러 장의 이미지를 사용자가 원하�
 ## 2. 시스템 아키텍처
 
 ### 2.1 전체 구조
-
+```
 project_root/
 ├── src/
 │ ├── main.py # 메인 애플리케이션
@@ -41,8 +41,7 @@ project_root/
 │
 └── logs/
 └── app.log # 로그 파일
-
-````
+```
 
 ### 2.2 모듈별 역할
 
