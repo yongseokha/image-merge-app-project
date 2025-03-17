@@ -596,8 +596,7 @@ project_root/
   @ErrorHandler.handle_error
   def function_name(self):
       # 함수 내용
-````
-
+   ```
 - 처리되는 예외 종류:
   - FileNotFoundError: "파일을 찾을 수 없습니다"
   - PermissionError: "파일 접근 권한이 없습니다"
